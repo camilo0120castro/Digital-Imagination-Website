@@ -1,0 +1,16 @@
+.header {
+    flex-direction: row;
+    align-items: center; /* Alineación vertical */
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 40%;
+    height: 100%;
+}
+
+.header-nav {
+    height: 100%;
+    width: 60%;
+    font-size: var(--nav_font-size-Tablet);
+}
