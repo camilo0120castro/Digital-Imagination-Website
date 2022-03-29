@@ -1,3 +1,6 @@
+
+/* ! Esto es una copia del mobile CSS, no usar*/
+
 :root {
     --header_color: #22E5F0;
     --header-logo_color: #7072bd;
@@ -54,7 +57,7 @@ html {
     display: flex;
     flex-direction: row;
     position: sticky;
-    top: 0;
+    top: 0px;
 }
 
 .logo {
@@ -72,8 +75,7 @@ html {
 }
 
 .header-nav {
-    cursor: pointer;
-    height: 100%;
+    height: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center; /*Alineación vertical*/
@@ -81,31 +83,22 @@ html {
     color: var(--nav-text_color);
 }
 
-.header-nav > p {
-    position: relative;
+.header-nav > .header-nav_menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #2d94cf;
-    right: 0%;
+    width: 100%;
     height: 100%;
-    font-size: 4rem;
-    padding: 0rem 5rem;
 }
 
 .nav { /*TODO: ACOMODRAR PARA QUE SE VEA EL BORDESITO*/
-    display: none;
+    display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 
     height: 100%;
-    width: 100%;
 }
-
-.nav > .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
 
 .header-nav > .nav > li{
     list-style: none;
